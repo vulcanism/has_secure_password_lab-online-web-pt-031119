@@ -9,4 +9,8 @@ class UsersController < ApplicationController
     
   end
   
+  def welcome
+    render :welcome
+  end
+  
 end
